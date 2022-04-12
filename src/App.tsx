@@ -3,10 +3,9 @@ import Navbar from "./components/Navbar";
 
 const App: React.FC = () => {
   return (
-    <div>
+    <main>
       <Navbar />
-      <h1 className="text-3xl underline">Manage</h1>
-    </div>
+    </main>
   );
 };
 
