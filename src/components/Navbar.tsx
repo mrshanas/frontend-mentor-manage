@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
         </ul>
       </div>
       <div className="hidden md:basis-1/4 md:block">
-        <Button buttonWidth="2/3" />
+        <Button />
       </div>
       <div className="md:hidden">
         <img src={hamburger} alt="" />

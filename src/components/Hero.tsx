@@ -5,13 +5,17 @@ import Button from "./Button";
 const Hero: React.FC = () => {
   return (
     <div className="flex md:flex-row w-full flex-col-reverse">
-      <div className="basis-1/2 flex flex-col align-top">
-        <h1>Bring everyone together to build better products.</h1>
-        <p>
+      <div className="basis-1/2 flex flex-col align-top justify-around text-center">
+        <h1 className="text-6xl font-bold">
+          Bring everyone together to build better products.
+        </h1>
+        <p className="text-2xl font-thin ml-12">
           Manage makes it simple for software teams to plan day-to-day tasks
           while keeping the larger team goals in view
         </p>
-        <Button buttonWidth="1" />
+        <div className="w-1/4 ml-12">
+          <Button />
+        </div>
       </div>
       <div className="basis-1/2">
         <img src={intro} alt="" />
